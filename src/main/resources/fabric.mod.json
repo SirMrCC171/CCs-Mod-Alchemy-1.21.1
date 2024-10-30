@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cc-mod-alchemy",
+	"version": "${version}",
+	"name": "CC's Mod: Alchemy",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"SirMrCC"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cc-mod-alchemy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"sirmrcc.alchemy.CCsModAlchemy"
+		],
+		"fabric-datagen": [
+			"sirmrcc.alchemy.CCsModAlchemyDataGenerator"
+		],
+		"client": [
+			"sirmrcc.alchemy.CCsModAlchemyClient"
+		]
+	},
+	"mixins": [
+		"cc-mod-alchemy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
