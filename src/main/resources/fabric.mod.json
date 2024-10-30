@@ -3,13 +3,13 @@
 	"id": "cc-mod-alchemy",
 	"version": "${version}",
 	"name": "CC's Mod: Alchemy",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "WIP",
 	"authors": [
 		"SirMrCC"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/SirMrCC171/CCs-Mod-Alchemy-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/cc-mod-alchemy/icon.png",
