@@ -1,4 +1,8 @@
 {
   "item.cc-mod-alchemy.raw_sulfur": "Raw Sulfur",
-  "item.cc-mod-alchemy.sulfur_powder": "Sulfur Powder"
+  "item.cc-mod-alchemy.sulfur_powder": "Sulfur Powder",
+
+  "block.cc-mod-alchemy.raw_sulfur_block": "Block of Raw Sulfur",
+  "block.cc-mod-alchemy.sulfur_ore": "Sulfur Ore",
+  "block.cc-mod-alchemy.deepslate_sulfur_ore": "Deepslate Sulfur Ore"
 }

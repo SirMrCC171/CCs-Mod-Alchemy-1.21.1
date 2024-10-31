@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cc-mod-alchemy:block/sulfur_ore"
+  }
+}
