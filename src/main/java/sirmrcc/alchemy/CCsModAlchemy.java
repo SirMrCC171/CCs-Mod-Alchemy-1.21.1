@@ -7,6 +7,7 @@ import net.minecraft.item.ItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sirmrcc.alchemy.block.ModBlocks;
+import sirmrcc.alchemy.item.ModItemGroups;
 import sirmrcc.alchemy.item.ModItems;
 
 public class CCsModAlchemy implements ModInitializer
@@ -17,6 +18,7 @@ public class CCsModAlchemy implements ModInitializer
 	@Override
 	public void onInitialize()
 	{
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

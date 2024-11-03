@@ -28,5 +28,9 @@ public class ModItems
             fabricItemGroupEntries.add(RAW_SULFUR);
             fabricItemGroupEntries.add(SULFUR_POWDER);
         });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries ->
+        {
+            fabricItemGroupEntries.add(PHILOSOPHERS_STONE);
+        });
     }
 }

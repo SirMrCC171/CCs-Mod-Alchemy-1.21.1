@@ -14,11 +14,11 @@ import sirmrcc.alchemy.CCsModAlchemy;
 
 public class ModBlocks
 {
-    private static final Block RAW_SULFUR_BLOCK = registerBlock("raw_sulfur_block",
+    public static final Block RAW_SULFUR_BLOCK = registerBlock("raw_sulfur_block",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
-    private static final Block SULFUR_ORE = registerBlock("sulfur_ore",
+    public static final Block SULFUR_ORE = registerBlock("sulfur_ore",
             new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
-    private static final Block DEEPSLATE_SULFUR_ORE = registerBlock("deepslate_sulfur_ore",
+    public static final Block DEEPSLATE_SULFUR_ORE = registerBlock("deepslate_sulfur_ore",
             new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block)
