@@ -5,7 +5,7 @@
 
   "block.cc-mod-alchemy.raw_sulfur_block": "Block of Raw Sulfur",
   "block.cc-mod-alchemy.sulfur_ore": "Sulfur Ore",
-  "block.cc-mod-alchemy.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "block.cc-mod-alchemy.sulfur_deepslate_ore": "Deepslate Sulfur Ore",
 
   "itemgroup.cc-mod-alchemy.alchemy_craft": "Alchemical Resources"
 }

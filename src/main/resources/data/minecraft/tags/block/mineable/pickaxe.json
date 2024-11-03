@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cc-mod-alchemy:raw_sulfur_block",
+    "cc-mod-alchemy:sulfur_ore",
+    "cc-mod-alchemy:sulfur_deepslate_ore"
+  ]
+}

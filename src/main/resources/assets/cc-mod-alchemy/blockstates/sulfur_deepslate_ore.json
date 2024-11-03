@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cc-mod-alchemy:block/sulfur_deepslate_ore"
+    }
+  }
+}

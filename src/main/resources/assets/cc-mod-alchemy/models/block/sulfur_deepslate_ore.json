@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "cc-mod-alchemy:block/deepslate_sulfur_ore"
+    "all": "cc-mod-alchemy:block/sulfur_deepslate_ore"
   }
 }

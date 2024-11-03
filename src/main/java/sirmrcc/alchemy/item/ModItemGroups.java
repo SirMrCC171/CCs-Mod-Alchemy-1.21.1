@@ -19,7 +19,7 @@ public class ModItemGroups
                     .entries(((displayContext, entries) ->
                     {
                         entries.add(ModBlocks.SULFUR_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_SULFUR_ORE);
+                        entries.add(ModBlocks.SULFUR_DEEPSLATE_ORE);
                         entries.add(ModBlocks.RAW_SULFUR_BLOCK);
                         entries.add(ModItems.RAW_SULFUR);
                         entries.add(ModItems.SULFUR_POWDER);
