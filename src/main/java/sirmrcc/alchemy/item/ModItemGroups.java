@@ -18,11 +18,16 @@ public class ModItemGroups
                     .displayName(Text.translatable("itemgroup.cc-mod-alchemy.alchemy_craft"))
                     .entries(((displayContext, entries) ->
                     {
+                        //Natural Blocks
                         entries.add(ModBlocks.SULFUR_ORE);
                         entries.add(ModBlocks.SULFUR_DEEPSLATE_ORE);
                         entries.add(ModBlocks.RAW_SULFUR_BLOCK);
+
+                        //Ingredients
                         entries.add(ModItems.RAW_SULFUR);
                         entries.add(ModItems.SULFUR_POWDER);
+
+                        //Tools
                         entries.add(ModItems.PHILOSOPHERS_STONE);
                     })).build());
 
