@@ -13,6 +13,7 @@ public class ModItems
     public static final Item RAW_SULFUR = registerItem("raw_sulfur", new Item(new Item.Settings()));
     public static final Item SULFUR_POWDER = registerItem("sulfur_powder", new Item(new Item.Settings()));
     public static final Item PHILOSOPHERS_STONE = registerItem("philosophers_stone", new Item(new Item.Settings()));
+    public static final Item PHILOSOPHERS_STONE_POLISHED = registerItem("philosophers_stone_polished", new Item(new Item.Settings()));
 
     private  static Item registerItem(String name, Item item)
     {
