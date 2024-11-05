@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cc-mod-alchemy:block/cinnabar_block"
+    }
+  }
+}

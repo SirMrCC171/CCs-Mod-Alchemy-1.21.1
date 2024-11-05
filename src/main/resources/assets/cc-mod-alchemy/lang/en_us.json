@@ -3,10 +3,18 @@
   "item.cc-mod-alchemy.sulfur_powder": "Sulfur Powder",
   "item.cc-mod-alchemy.philosophers_stone": "Philosophers' Stone",
   "item.cc-mod-alchemy.philosophers_stone_polished": "Polished Philosophers' Stone",
+  "item.cc-mod-alchemy.cinnabar": "Cinnabar",
+  "item.cc-mod-alchemy.mercury_bottle": "Bottle of Mercury",
+  "item.cc-mod-alchemy.salt": "Salt",
+  "item.cc-mod-alchemy.natron": "Natron",
+  "item.cc-mod-alchemy.sulfuric_acid_bottle": "Bottle of Sulfuric Acid",
 
   "block.cc-mod-alchemy.raw_sulfur_block": "Block of Raw Sulfur",
   "block.cc-mod-alchemy.sulfur_ore": "Sulfur Ore",
   "block.cc-mod-alchemy.sulfur_deepslate_ore": "Deepslate Sulfur Ore",
+  "block.cc-mod-alchemy.cinnabar_ore": "Cinnabar Ore",
+  "block.cc-mod-alchemy.cinnabar_deepslate_ore": "Deepslate Cinnabar Ore",
+  "block.cc-mod-alchemy.cinnabar_block": "Block of Cinnabar",
 
   "itemgroup.cc-mod-alchemy.alchemy_craft": "Alchemical Resources"
 }

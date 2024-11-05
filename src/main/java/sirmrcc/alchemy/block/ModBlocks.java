@@ -24,6 +24,12 @@ public class ModBlocks
     public static final Block SULFUR_DEEPSLATE_ORE = registerBlock("sulfur_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),AbstractBlock.Settings.create()
                     .strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block CINNABAR_BLOCK = registerBlock("cinnabar_block",
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CINNABAR_ORE = registerBlock("cinnabar_ore",
+            new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CINNABAR_DEEPSLATE_ORE = registerBlock("cinnabar_deepslate_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block)
     {

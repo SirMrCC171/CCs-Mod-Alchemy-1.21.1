@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "cc-mod-alchemy:cinnabar_block",
+    "cc-mod-alchemy:cinnabar_ore",
+    "cc-mod-alchemy:cinnabar_deepslate_ore"
+  ]
 }
