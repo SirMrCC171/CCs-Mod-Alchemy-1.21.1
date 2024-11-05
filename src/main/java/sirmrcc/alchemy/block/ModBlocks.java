@@ -46,12 +46,5 @@ public class ModBlocks
     public static void registerModBlocks()
     {
         CCsModAlchemy.LOGGER.info("Registering Mod Blocks for " + CCsModAlchemy.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries ->
-                fabricItemGroupEntries.add(ModBlocks.SULFUR_ORE));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries ->
-                fabricItemGroupEntries.add(ModBlocks.SULFUR_DEEPSLATE_ORE));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries ->
-                fabricItemGroupEntries.add(ModBlocks.RAW_SULFUR_BLOCK));
     }
 }

@@ -12,13 +12,13 @@ public class ModItems
 {
     public static final Item RAW_SULFUR = registerItem("raw_sulfur", new Item(new Item.Settings()));
     public static final Item SULFUR_POWDER = registerItem("sulfur_powder", new Item(new Item.Settings()));
-    public static final Item PHILOSOPHERS_STONE = registerItem("philosophers_stone", new Item(new Item.Settings()));
-    public static final Item PHILOSOPHERS_STONE_POLISHED = registerItem("philosophers_stone_polished", new Item(new Item.Settings()));
+    public static final Item PHILOSOPHERS_STONE = registerItem("philosophers_stone", new Item(new Item.Settings().maxCount(1)));
+    public static final Item PHILOSOPHERS_STONE_POLISHED = registerItem("philosophers_stone_polished", new Item(new Item.Settings().maxCount(1)));
     public static final Item CINNABAR = registerItem("cinnabar", new Item(new Item.Settings()));
-    public static final Item MERCURY_BOTTLE = registerItem("mercury_bottle", new Item(new Item.Settings()));
+    public static final Item MERCURY_BOTTLE = registerItem("mercury_bottle", new Item(new Item.Settings().maxCount(16)));
     public static final Item NATRON = registerItem("natron", new Item(new Item.Settings()));
     public static final Item SALT = registerItem("salt", new Item(new Item.Settings()));
-    public static final Item SULFURIC_ACID_BOTTLE = registerItem("sulfuric_acid_bottle", new Item(new Item.Settings()));
+    public static final Item SULFURIC_ACID_BOTTLE = registerItem("sulfuric_acid_bottle", new Item(new Item.Settings().maxCount(16)));
 
 
     private  static Item registerItem(String name, Item item)
@@ -29,15 +29,5 @@ public class ModItems
     public static void registerModItems()
     {
         CCsModAlchemy.LOGGER.info("Registering Mod Items for " + CCsModAlchemy.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries ->
-        {
-            fabricItemGroupEntries.add(RAW_SULFUR);
-            fabricItemGroupEntries.add(SULFUR_POWDER);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries ->
-        {
-            fabricItemGroupEntries.add(PHILOSOPHERS_STONE);
-        });
     }
 }
