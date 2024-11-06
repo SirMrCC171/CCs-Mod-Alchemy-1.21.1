@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "cc-mod-alchemy:block/limestone",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "cc-mod-alchemy:block/limestone"
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored"
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone",
+        "y": 180
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "cc-mod-alchemy:block/limestone",
+        "x": 90
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored",
+        "x": 90
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "cc-mod-alchemy:block/limestone_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

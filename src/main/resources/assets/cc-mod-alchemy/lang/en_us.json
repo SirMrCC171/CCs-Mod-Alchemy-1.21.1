@@ -15,6 +15,7 @@
   "block.cc-mod-alchemy.cinnabar_ore": "Cinnabar Ore",
   "block.cc-mod-alchemy.cinnabar_deepslate_ore": "Deepslate Cinnabar Ore",
   "block.cc-mod-alchemy.cinnabar_block": "Block of Cinnabar",
+  "block.cc-mod-alchemy.limestone": "Limestone",
 
   "itemgroup.cc-mod-alchemy.alchemy_craft": "Alchemical Resources"
 }

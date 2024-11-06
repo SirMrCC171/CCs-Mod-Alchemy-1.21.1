@@ -25,6 +25,7 @@ public class ModItemGroups
                         entries.add(ModBlocks.CINNABAR_ORE);
                         entries.add(ModBlocks.CINNABAR_DEEPSLATE_ORE);
                         entries.add(ModBlocks.CINNABAR_BLOCK);
+                        entries.add(ModBlocks.LIMESTONE);
 
                         //Ingredients
                         entries.add(ModItems.RAW_SULFUR);
