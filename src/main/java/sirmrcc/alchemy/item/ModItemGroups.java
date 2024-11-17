@@ -39,6 +39,8 @@ public class ModItemGroups
                         //Tools
                         entries.add(ModItems.PHILOSOPHERS_STONE);
                         entries.add(ModItems.PHILOSOPHERS_STONE_POLISHED);
+                        entries.add(ModItems.PHILOSOPHERS_STONE_POLISHED_BROKEN);
+
                     })).build());
 
     public static void registerItemGroups()

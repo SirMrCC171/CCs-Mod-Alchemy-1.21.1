@@ -1,5 +1,6 @@
 package sirmrcc.alchemy.item.custome;
 
+import net.fabricmc.fabric.impl.registry.sync.trackers.vanilla.BlockItemTracker;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
@@ -16,6 +17,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import sirmrcc.alchemy.CCsModAlchemy;
+import sirmrcc.alchemy.block.ModBlocks;
 import sirmrcc.alchemy.item.ModItems;
 
 import java.util.EventListener;
@@ -56,12 +58,14 @@ public class PhilosophersStoneTest extends Item
             PlayerEntity player = (PlayerEntity) entity;
             //receive material item and get corresponding block
             ItemStack myMaterial = checkForMaterials(player, world);
+            CCsModAlchemy.LOGGER.info("Material: " + myMaterial);
             if (myMaterial == null)
             {
                 deactivate();
                 return;
             }
             BlockState material = getPhysicalMaterial(myMaterial);
+            CCsModAlchemy.LOGGER.info("Blockstate: " + material);
             if (isNotSolidGround(player) && isActive && material != null)
             {
                 BlockPos underFeet = (player.getBlockPos().down());
@@ -201,6 +205,11 @@ public class PhilosophersStoneTest extends Item
                 return Items.DIORITE.getDefaultStack();
             }
             //Limestone block variants - wip
+            else if (player.getInventory().contains(ModBlocks.LIMESTONE.asItem().getDefaultStack()))
+            {
+                hasMaterials = true;
+                return ModBlocks.LIMESTONE.asItem().getDefaultStack();
+            }
             //desert block variants
             else if (player.getInventory().contains(Items.SANDSTONE.getDefaultStack()))
             {
@@ -273,7 +282,8 @@ public class PhilosophersStoneTest extends Item
         else if (itemMaterial.isOf(Items.ANDESITE)) return Blocks.ANDESITE.getDefaultState();
         else if (itemMaterial.isOf(Items.GRANITE)) return Blocks.GRANITE.getDefaultState();
         else if (itemMaterial.isOf(Items.DIORITE)) return Blocks.DIORITE.getDefaultState();
-        //limestone - wip
+        //limestone
+        else if (itemMaterial.isOf(ModBlocks.LIMESTONE.asItem())) return ModBlocks.LIMESTONE.getDefaultState();
         //desert
         else if (itemMaterial.isOf(Items.SANDSTONE)) return Blocks.SANDSTONE.getDefaultState();
         else if (itemMaterial.isOf(Items.RED_SANDSTONE)) return Blocks.RED_SANDSTONE.getDefaultState();
@@ -304,6 +314,8 @@ public class PhilosophersStoneTest extends Item
                  material.isOf(Items.SANDSTONE) || material.isOf(Items.RED_SANDSTONE) ||
                  material.isOf(Items.BLACKSTONE) || material.isOf(Items.END_STONE))
             return SoundEvents.BLOCK_STONE_PLACE;
+        //dripstone/limestone sound
+        else if (material.isOf(ModBlocks.LIMESTONE.asItem())) return SoundEvents.BLOCK_DRIPSTONE_BLOCK_PLACE;
         //basalt sounds
          else if (material.isOf(Items.BASALT) || material.isOf(Items.SMOOTH_BASALT))
              return SoundEvents.BLOCK_BASALT_PLACE;
