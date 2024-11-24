@@ -1,22 +1,19 @@
-package sirmrcc.alchemy.block.custome;
+package sirmrcc.alchemy.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldEvents;
 import sirmrcc.alchemy.CCsModAlchemy;
 
-public class CustomeBlockTest extends Block
+public class CustomBlockTest extends Block
 {
-    public CustomeBlockTest(Settings settings)
+    public CustomBlockTest(Settings settings)
     {
         super(settings);
     }

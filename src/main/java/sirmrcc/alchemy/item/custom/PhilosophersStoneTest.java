@@ -1,6 +1,5 @@
-package sirmrcc.alchemy.item.custome;
+package sirmrcc.alchemy.item.custom;
 
-import net.fabricmc.fabric.impl.registry.sync.trackers.vanilla.BlockItemTracker;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
@@ -19,8 +18,6 @@ import net.minecraft.world.World;
 import sirmrcc.alchemy.CCsModAlchemy;
 import sirmrcc.alchemy.block.ModBlocks;
 import sirmrcc.alchemy.item.ModItems;
-
-import java.util.EventListener;
 
 public class PhilosophersStoneTest extends Item
 {
