@@ -12,6 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import sirmrcc.alchemy.CCsModAlchemy;
+import sirmrcc.alchemy.block.custome.CustomeBlockTest;
 import sirmrcc.alchemy.item.ModItems;
 
 public class ModBlocks extends ModItems
@@ -32,6 +33,9 @@ public class ModBlocks extends ModItems
             new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block LIMESTONE = register("limestone",
             new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
+    //test blocks
+    public static final Block TEST_BLOCK = register("test_block",
+            new CustomeBlockTest(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.GRAVEL)));
 
     private static <T extends Block> T register(String name, T block)
     {
