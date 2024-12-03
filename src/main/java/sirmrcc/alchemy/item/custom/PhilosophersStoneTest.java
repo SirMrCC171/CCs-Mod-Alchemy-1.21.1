@@ -87,9 +87,9 @@ public class PhilosophersStoneTest extends Item
     }
     private void whenDamaged(ItemStack item, PlayerEntity player)
     {
-        if (item.getDamage() == 0)
+        if (item.getDamage() == 0 && !player.isCreative())
         {
-            ItemStack testBroken = new ItemStack(ModItems.PHILOSOPHERS_STONE);
+            ItemStack testBroken = new ItemStack(ModItems.PHILOSOPHERS_STONE_POLISHED_BROKEN);
             player.giveItemStack(testBroken);
         }
     }
@@ -106,7 +106,7 @@ public class PhilosophersStoneTest extends Item
         if(!world.isClient)
         {
             CCsModAlchemy.LOGGER.info("Activation: " + isActive + "\nHas Material :" + hasMaterials);
-            if (!isActive && hasMaterials)
+            if (isActive && hasMaterials)
             {
                 CCsModAlchemy.LOGGER.info("Playing activation sound");
                 world.playSound(null, player.getBlockPos(), SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE, SoundCategory.PLAYERS, 2.0f, 1.0f);
@@ -141,8 +141,7 @@ public class PhilosophersStoneTest extends Item
         {
             ItemStack myMaterial;
             myMaterial = checkForMaterials(player, world);
-            boolean hasValidMaterial = false;
-            if (myMaterial != null) hasValidMaterial = true;
+            boolean hasValidMaterial = myMaterial != null;
             if (hasValidMaterial)
             {
                 int index = player.getInventory().indexOf(myMaterial);
@@ -152,10 +151,6 @@ public class PhilosophersStoneTest extends Item
             }
             else deactivate();
         }
-    }
-    private void damageItem(ItemStack item, PlayerEntity player, Hand hand)
-    {
-
     }
     private ItemStack checkForMaterials(PlayerEntity player, World world)
     {

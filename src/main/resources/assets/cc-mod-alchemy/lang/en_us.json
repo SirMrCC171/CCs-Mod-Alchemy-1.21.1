@@ -1,14 +1,16 @@
 {
   "item.cc-mod-alchemy.raw_sulfur": "Raw Sulfur",
   "item.cc-mod-alchemy.sulfur_powder": "Sulfur Powder",
-  "item.cc-mod-alchemy.philosophers_stone": "Philosophers' Stone",
-  "item.cc-mod-alchemy.philosophers_stone_polished": "Polished Philosophers' Stone",
+  "item.cc-mod-alchemy.philosophers_stone": "§ePhilosophers' Stone§r",
+  "item.cc-mod-alchemy.philosophers_stone_polished": "§ePolished Philosophers' Stone§r",
   "item.cc-mod-alchemy.cinnabar": "Cinnabar",
   "item.cc-mod-alchemy.mercury_bottle": "Bottle of Mercury",
   "item.cc-mod-alchemy.salt": "Salt",
   "item.cc-mod-alchemy.natron": "Natron",
   "item.cc-mod-alchemy.sulfuric_acid_bottle": "Bottle of Sulfuric Acid",
-  "item.cc-mod-alchemy.philosophers_stone_polished_broken": "Fractured Polished Philosophers' Stone",
+  "item.cc-mod-alchemy.philosophers_stone_polished_broken": "§eFractured Polished Philosophers' Stone§r",
+
+  "item.cc-mod-alchemy.test": "§dGlyphed Polished Philosophers' Stone (TEST)§r",
 
   "block.cc-mod-alchemy.raw_sulfur_block": "Block of Raw Sulfur",
   "block.cc-mod-alchemy.sulfur_ore": "Sulfur Ore",
@@ -18,5 +20,7 @@
   "block.cc-mod-alchemy.cinnabar_block": "Block of Cinnabar",
   "block.cc-mod-alchemy.limestone": "Limestone",
 
-  "itemgroup.cc-mod-alchemy.alchemy_craft": "Alchemical Resources"
+  "itemgroup.cc-mod-alchemy.alchemy_craft": "Alchemical Resources",
+
+  "tooltip.cc-mod-alchemy.test.tooltip": "§7Earth Transmutation§r"
 }

@@ -1,11 +1,16 @@
 package sirmrcc.alchemy.item;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import sirmrcc.alchemy.CCsModAlchemy;
 import sirmrcc.alchemy.item.custom.PhilosophersStoneTest;
+
+import java.util.List;
 
 public class ModItems
 {
@@ -21,7 +26,15 @@ public class ModItems
     public static final Item PHILOSOPHERS_STONE_POLISHED_BROKEN = registerItem("philosophers_stone_polished_broken", new Item(new Item.Settings().maxCount(1)));
 
     //test list
-    public static final Item TEST = registerItem("test", new PhilosophersStoneTest(new Item.Settings().maxDamage(1532)));
+    public static final Item TEST = registerItem("test", new PhilosophersStoneTest(new Item.Settings().maxDamage(512))
+    {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type)
+        {
+            tooltip.add(Text.translatable("tooltip.cc-mod-alchemy.test.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
 
 
     private  static Item registerItem(String name, Item item)
