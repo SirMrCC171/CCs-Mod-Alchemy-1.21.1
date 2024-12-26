@@ -83,15 +83,9 @@
       }
     },
     {
-      "apply":
-      [{
-        "model": "cc-mod-alchemy:block/transmuted_earth",
-        "uvlock": true
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside"
       },
-        {
-          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
-          "uvlock": true
-        }],
       "when": {
         "north": "false"
       }
