@@ -1,9 +1,6 @@
 package sirmrcc.alchemy.block;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,10 +9,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import sirmrcc.alchemy.CCsModAlchemy;
-import sirmrcc.alchemy.block.custom.CustomBlockTest;
-import sirmrcc.alchemy.item.ModItems;
+import sirmrcc.alchemy.block.custom.TransmutedEarthBlock;
 
-public class ModBlocks extends ModItems
+public class ModBlocks
 {
     public static final Block RAW_SULFUR_BLOCK = register("raw_sulfur_block",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -33,9 +29,10 @@ public class ModBlocks extends ModItems
             new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block LIMESTONE = register("limestone",
             new PillarBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
-    //test blocks
-    public static final Block TEST_BLOCK = register("test_block",
-            new CustomBlockTest(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.GRAVEL)));
+    public static final Block VOLATILE_TRANSMUTED_EARTH = register("volatile_transmuted_earth",
+            new TransmutedEarthBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block STABLE_TRANSMUTED_EARTH = register("stable_transmuted_earth",
+            new MushroomBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.NETHERRACK)));
 
     private static <T extends Block> T register(String name, T block)
     {

@@ -1,0 +1,150 @@
+{
+  "multipart": [
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth"
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored"
+        }],
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply":
+      [{
+        "model": "cc-mod-alchemy:block/transmuted_earth",
+        "uvlock": true
+      },
+        {
+          "model": "cc-mod-alchemy:block/transmuted_earth_mirrored",
+          "uvlock": true
+        }],
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside",
+        "uvlock": false,
+        "y": 90
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside",
+        "uvlock": false,
+        "y": 180
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside",
+        "uvlock": false,
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside",
+        "uvlock": false,
+        "x": 270
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "cc-mod-alchemy:block/transmuted_earth_inside",
+        "uvlock": false,
+        "x": 90
+      },
+      "when": {
+        "down": "false"
+      }
+    }
+  ]
+}

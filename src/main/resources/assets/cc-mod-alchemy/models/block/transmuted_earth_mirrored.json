@@ -1,0 +1,8 @@
+{
+  "parent": "cc-mod-alchemy:block/template_transmuted_earth_mirrored",
+  "textures": {
+    "top": "cc-mod-alchemy:block/transmuted_earth_smooth",
+    "side": "cc-mod-alchemy:block/transmuted_earth",
+    "bottom": "cc-mod-alchemy:block/transmuted_earth_cobbled"
+  }
+}
