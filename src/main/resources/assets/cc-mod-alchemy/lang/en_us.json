@@ -1,5 +1,5 @@
 {
-  "item.cc-mod-alchemy.raw_sulfur": "Raw Sulfur",
+  "item.cc-mod-alchemy.sulfur": "Sulfur",
   "item.cc-mod-alchemy.sulfur_powder": "Sulfur Powder",
   "item.cc-mod-alchemy.philosophers_stone": "Philosophers' Stone",
   "item.cc-mod-alchemy.philosophers_stone_polished": "Polished Philosophers' Stone",
@@ -12,7 +12,7 @@
 
   "item.cc-mod-alchemy.test": "Glyphed Polished Philosophers' Stone",
 
-  "block.cc-mod-alchemy.raw_sulfur_block": "Block of Raw Sulfur",
+  "block.cc-mod-alchemy.sulfur_block": "Block of Sulfur",
   "block.cc-mod-alchemy.sulfur_ore": "Sulfur Ore",
   "block.cc-mod-alchemy.sulfur_deepslate_ore": "Deepslate Sulfur Ore",
   "block.cc-mod-alchemy.cinnabar_ore": "Cinnabar Ore",

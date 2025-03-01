@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cc-mod-alchemy:raw_sulfur_block"
+      "item": "cc-mod-alchemy:sulfur_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "cc-mod-alchemy:raw_sulfur"
+    "id": "cc-mod-alchemy:sulfur"
   }
 }

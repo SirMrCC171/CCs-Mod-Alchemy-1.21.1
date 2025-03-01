@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "cc-mod-alchemy:raw_sulfur"
+              "name": "cc-mod-alchemy:sulfur"
             }
           ]
         }

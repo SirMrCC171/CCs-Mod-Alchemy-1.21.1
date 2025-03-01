@@ -13,7 +13,7 @@ import sirmrcc.alchemy.block.custom.TransmutedEarthBlock;
 
 public class ModBlocks
 {
-    public static final Block RAW_SULFUR_BLOCK = register("raw_sulfur_block",
+    public static final Block SULFUR_BLOCK = register("sulfur_block",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block SULFUR_ORE = register("sulfur_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5),AbstractBlock.Settings.create()

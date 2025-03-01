@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "cc-mod-alchemy:raw_sulfur"
+      "item": "cc-mod-alchemy:sulfur"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "cc-mod-alchemy:raw_sulfur_block"
+    "id": "cc-mod-alchemy:sulfur_block"
   }
 }

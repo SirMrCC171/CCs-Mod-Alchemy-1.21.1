@@ -1,12 +1,14 @@
 {
   "replace": false,
   "values": [
-    "cc-mod-alchemy:raw_sulfur_block",
+    "cc-mod-alchemy:sulfur_block",
     "cc-mod-alchemy:sulfur_ore",
     "cc-mod-alchemy:sulfur_deepslate_ore",
     "cc-mod-alchemy:cinnabar_block",
     "cc-mod-alchemy:cinnabar_ore",
     "cc-mod-alchemy:cinnabar_deepslate_ore",
-    "cc-mod-alchemy:limestone"
+    "cc-mod-alchemy:limestone",
+    "cc-mod-alchemy:stable_transmuted_earth",
+    "cc-mod-alchemy:volatile_transmuted_earth"
   ]
 }

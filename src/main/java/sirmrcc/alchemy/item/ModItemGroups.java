@@ -21,14 +21,14 @@ public class ModItemGroups
                         //Natural Blocks
                         entries.add(ModBlocks.SULFUR_ORE);
                         entries.add(ModBlocks.SULFUR_DEEPSLATE_ORE);
-                        entries.add(ModBlocks.RAW_SULFUR_BLOCK);
+                        entries.add(ModBlocks.SULFUR_BLOCK);
                         entries.add(ModBlocks.CINNABAR_ORE);
                         entries.add(ModBlocks.CINNABAR_DEEPSLATE_ORE);
                         entries.add(ModBlocks.CINNABAR_BLOCK);
                         entries.add(ModBlocks.LIMESTONE);
 
                         //Ingredients
-                        entries.add(ModItems.RAW_SULFUR);
+                        entries.add(ModItems.SULFUR);
                         entries.add(ModItems.SULFUR_POWDER);
                         entries.add(ModItems.SULFURIC_ACID_BOTTLE);
                         entries.add(ModItems.CINNABAR);

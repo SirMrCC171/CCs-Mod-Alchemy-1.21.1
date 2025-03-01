@@ -33,7 +33,6 @@ public class TransmutedEarthBlock extends MushroomBlock
     private void destroyBlock(World world, BlockPos pos, BlockState state)
     {
         world.syncWorldEvent(WorldEvents.BLOCK_BROKEN, pos,getRawIdFromState(state));
-        world.playSound(null, pos, SoundEvents.BLOCK_DEEPSLATE_BREAK, SoundCategory.BLOCKS, 1f, 1f);
         world.removeBlock(pos, false);
     }
 }

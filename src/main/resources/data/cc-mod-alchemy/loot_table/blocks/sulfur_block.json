@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cc-mod-alchemy:raw_sulfur_block"
+          "name": "cc-mod-alchemy:sulfur_block"
         }
       ],
       "rolls": 1.0

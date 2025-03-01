@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "cc-mod-alchemy:block/raw_sulfur_block"
+    "all": "cc-mod-alchemy:block/sulfur_block"
   }
 }
