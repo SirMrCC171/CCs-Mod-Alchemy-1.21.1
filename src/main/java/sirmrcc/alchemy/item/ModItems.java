@@ -9,7 +9,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import sirmrcc.alchemy.CCsModAlchemy;
-import sirmrcc.alchemy.item.custom.PhilosophersStoneTest;
+import sirmrcc.alchemy.item.custom.BridgerStoneTestItem;
 
 import java.util.List;
 
@@ -27,7 +27,8 @@ public class ModItems
     public static final Item PHILOSOPHERS_STONE_POLISHED_BROKEN = registerItem("philosophers_stone_polished_broken", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)));
 
     //test list
-    public static final Item TEST = registerItem("test", new PhilosophersStoneTest(new Item.Settings().rarity(Rarity.EPIC).maxDamage(512))
+    public static final Item TEST = registerItem("test", new BridgerStoneTestItem
+                                                (new Item.Settings().rarity(Rarity.EPIC).maxDamage(512))
     {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type)
