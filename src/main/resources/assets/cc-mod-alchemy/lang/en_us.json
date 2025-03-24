@@ -9,7 +9,10 @@
   "item.cc-mod-alchemy.natron": "Natron",
   "item.cc-mod-alchemy.sulfuric_acid_bottle": "Bottle of Sulfuric Acid",
   "item.cc-mod-alchemy.philosophers_stone_polished_broken": "Fractured Polished Philosophers' Stone",
+  "item.cc-mod-alchemy.guano": "Guano",
 
+  "item.cc-mod-alchemy.red_philosophers_powder": "Red Philosophers' Powder",
+  "item.cc-mod-alchemy.white_philosophers_powder": "White Philosophers' Powder",
   "item.cc-mod-alchemy.test": "Glyphed Polished Philosophers' Stone",
 
   "block.cc-mod-alchemy.sulfur_block": "Block of Sulfur",

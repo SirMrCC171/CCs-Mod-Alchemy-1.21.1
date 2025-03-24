@@ -25,6 +25,9 @@ public class ModItems
     public static final Item SALT = registerItem("salt", new Item(new Item.Settings()));
     public static final Item SULFURIC_ACID_BOTTLE = registerItem("sulfuric_acid_bottle", new Item(new Item.Settings().maxCount(16)));
     public static final Item PHILOSOPHERS_STONE_POLISHED_BROKEN = registerItem("philosophers_stone_polished_broken", new Item(new Item.Settings().maxCount(1).rarity(Rarity.RARE)));
+    public static final Item GUANO = registerItem("guano", new Item(new Item.Settings()));
+    public static final Item RED_PHILOSOPHERS_POWDER = registerItem("red_philosophers_powder", new Item(new Item.Settings()));
+    public static final Item WHITE_PHILOSOPHERS_POWDER = registerItem("white_philosophers_powder", new Item(new Item.Settings()));
 
     //test list
     public static final Item TEST = registerItem("test", new BridgerStoneTestItem

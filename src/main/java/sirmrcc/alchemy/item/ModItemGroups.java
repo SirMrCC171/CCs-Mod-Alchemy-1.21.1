@@ -35,6 +35,9 @@ public class ModItemGroups
                         entries.add(ModItems.MERCURY_BOTTLE);
                         entries.add(ModItems.SALT);
                         entries.add(ModItems.NATRON);
+                        entries.add(ModItems.GUANO);
+                        entries.add(ModItems.WHITE_PHILOSOPHERS_POWDER);
+                        entries.add(ModItems.RED_PHILOSOPHERS_POWDER);
 
                         //Tools
                         entries.add(ModItems.PHILOSOPHERS_STONE);
