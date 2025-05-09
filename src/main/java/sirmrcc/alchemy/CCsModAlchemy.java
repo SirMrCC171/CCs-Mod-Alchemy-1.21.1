@@ -3,6 +3,8 @@ package sirmrcc.alchemy;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sirmrcc.alchemy.block.ModBlocks;

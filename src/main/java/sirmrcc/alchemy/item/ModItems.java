@@ -11,6 +11,7 @@ import net.minecraft.util.Rarity;
 import sirmrcc.alchemy.CCsModAlchemy;
 import sirmrcc.alchemy.item.custom.BridgerStoneTestItem;
 import sirmrcc.alchemy.item.custom.GuanoItem;
+import sirmrcc.alchemy.item.custom.TeleportSwapStoneTestItem;
 
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class ModItems
 
     //test list
     public static final Item TEST = registerItem("test", new BridgerStoneTestItem
-                                                (new Item.Settings().rarity(Rarity.EPIC).maxDamage(512))
+            (new Item.Settings().rarity(Rarity.EPIC).maxDamage(512))
     {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type)
@@ -41,6 +42,8 @@ public class ModItems
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+    public static final Item TEST_2 = registerItem("test2", new TeleportSwapStoneTestItem
+            (new Item.Settings().rarity(Rarity.EPIC).maxDamage(512)));
 
 
     private  static Item registerItem(String name, Item item)

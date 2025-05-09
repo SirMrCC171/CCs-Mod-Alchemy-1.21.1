@@ -51,7 +51,7 @@ public class BridgerStoneTestItem extends Item
             }
 
         }
-        return super.use(world, user, hand);
+        return TypedActionResult.fail(user.getStackInHand(hand));
     }
 
     @Override
